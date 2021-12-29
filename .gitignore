@@ -1,0 +1,4 @@
+.vscode
+.nvmrc
+.env
+node_modules
