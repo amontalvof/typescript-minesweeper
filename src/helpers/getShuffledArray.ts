@@ -1,8 +1,9 @@
-interface IParams {
-    bombAmount: number;
-    width: number;
-}
-const getShuffledArray = ({ bombAmount, width }: IParams): string[] => {
+import { IGetShuffledArrayParams } from '../interfaces';
+
+const getShuffledArray = ({
+    bombAmount,
+    width,
+}: IGetShuffledArrayParams): string[] => {
     const bombsArray: string[] = Array(bombAmount).fill('bomb');
     const emptyArray: string[] = Array(width ** 2 - bombAmount).fill('valid');
     const gameArray: string[] = emptyArray.concat(bombsArray);
