@@ -1,17 +1,12 @@
 import getShuffledArray from './getShuffledArray';
 import addNumbers from './addNumbers';
+import addFlag from './addFlag';
 import { ICreateBoard } from '../interfaces';
 import click from './click';
 
-const createBoard = ({
-    grid,
-    width,
-    squares,
-    bombAmount,
-    isGameOver,
-}: ICreateBoard): void => {
-    //get shuffled game array with random bombs
-    const shuffledArray: string[] = getShuffledArray({ bombAmount, width });
+//create Board
+const createBoard = ({ grid, width, squares }: ICreateBoard): void => {
+    const shuffledArray: string[] = getShuffledArray(width);
 
     for (let i = 0; i < width ** 2; i++) {
         const square = document.createElement('div') as HTMLElement;
@@ -22,12 +17,18 @@ const createBoard = ({
 
         //normal click
         square.addEventListener('click', (event) => {
-            click({ square, isGameOver });
+            click(square);
         });
+
+        //ctrl and left click
+        square.oncontextmenu = (event) => {
+            event.preventDefault();
+            addFlag(square);
+        };
     }
 
     //add numbers
-    addNumbers({ squares, width });
+    addNumbers(squares);
 };
 
 export default createBoard;

@@ -1,16 +1,28 @@
-import createBoard from './helpers/createBoard';
+import createBoard from './modules/createBoard';
+import restart from './modules/restart';
+import { IState } from './interfaces';
 import './styles.css';
 
-document.addEventListener('DOMContentLoaded', () => {
-    const grid = document.querySelector('.grid') as HTMLElement;
-    const flagsLeft = document.querySelector('#flags-left') as HTMLElement;
-    const result = document.querySelector('#result') as HTMLElement;
-    let width: number = 10;
-    let bombAmount: number = 20;
-    let flags: number = 0;
-    let squares: HTMLElement[] = [];
-    let isGameOver: boolean = false;
+export const state: IState = {
+    width: 10,
+    bombAmount: 20,
+    flags: 0,
+    squares: [],
+    isGameOver: false,
+    interval: null,
+    clicks: 0,
+    seconds: 0,
+    minutes: 0,
+    hours: 0,
+    grid: document.querySelector('.grid') as HTMLElement,
+    flagsLeft: document.querySelector('#flags-left') as HTMLElement,
+    result: document.querySelector('#result') as HTMLElement,
+    timer: document.getElementById('display') as HTMLElement,
+    restartButton: document.querySelector('.btn') as HTMLElement,
+};
 
-    //create Board
-    createBoard({ grid, width, squares, bombAmount, isGameOver });
+document.addEventListener('DOMContentLoaded', () => {
+    const { grid, width, squares, restartButton } = state;
+    restartButton.addEventListener('click', restart);
+    createBoard({ grid, width, squares });
 });

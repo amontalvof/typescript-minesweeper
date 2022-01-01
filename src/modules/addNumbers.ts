@@ -1,6 +1,7 @@
-import { IAddNumbersParams } from '../interfaces';
+import { state } from '..';
 
-const addNumbers = ({ squares, width }: IAddNumbersParams): void => {
+const addNumbers = (squares: HTMLElement[]): void => {
+    const { width } = state;
     for (let i = 0; i < squares.length; i++) {
         let total = 0;
         const isLeftEdge = i % width === 0;

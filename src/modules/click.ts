@@ -1,7 +1,14 @@
-import { IClickParams } from '../interfaces';
+import checkSquare from './checkSquare';
+import gameOver from './gameOver';
+import startStop from './startStop';
+import { state } from '..';
 
-const click = ({ square, isGameOver }: IClickParams): void => {
-    let currentId = square.id;
+//click on square actions
+const click = (square: HTMLElement): void => {
+    const { isGameOver } = state;
+    state.clicks++;
+    startStop('started');
+    let currentId = Number(square.id);
     if (isGameOver) return;
     if (
         square.classList.contains('checked') ||
@@ -9,8 +16,7 @@ const click = ({ square, isGameOver }: IClickParams): void => {
     )
         return;
     if (square.classList.contains('bomb')) {
-        // gameOver(square);
-        console.log('gameOver');
+        gameOver(square);
     } else {
         let total = Number(square.getAttribute('data'));
         if (total != 0) {
@@ -22,8 +28,7 @@ const click = ({ square, isGameOver }: IClickParams): void => {
             square.innerHTML = total.toString();
             return;
         }
-        // checkSquare(square, currentId);
-        console.log('checkSquare');
+        checkSquare({ square, currentId });
     }
     square.classList.add('checked');
 };

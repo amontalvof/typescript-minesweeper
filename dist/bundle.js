@@ -1,0 +1,308 @@
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \**************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html,\\nbody {\\n    margin: 0;\\n    padding: 0;\\n}\\n\\n.screen {\\n    background-color: grey;\\n    width: 100vw;\\n    height: 100vh;\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n#timer {\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n#display {\\n    margin-right: 50px;\\n}\\n\\n.container {\\n    width: 500px;\\n    align-content: center;\\n}\\n\\n.grid {\\n    height: 400px;\\n    width: 400px;\\n    display: flex;\\n    flex-wrap: wrap;\\n    background-color: #dcd6bc;\\n    margin-left: 50px;\\n    margin-top: 20px;\\n    border: 10px solid #dcd6bc;\\n    margin-bottom: 10px;\\n}\\n\\ndiv {\\n    font-size: 25px;\\n    text-align: center;\\n    font-family: 'Roboto Mono', monospace;\\n}\\n.valid {\\n    height: 40px;\\n    width: 40px;\\n    border: 5px solid;\\n    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;\\n    box-sizing: border-box;\\n}\\n\\n.checked {\\n    height: 40px;\\n    width: 40px;\\n    border: 2px solid;\\n    background-color: #cecab7;\\n    border-color: #9c998d;\\n    box-sizing: border-box;\\n}\\n\\n.bomb {\\n    height: 40px;\\n    width: 40px;\\n    border: 5px solid;\\n    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;\\n    box-sizing: border-box;\\n}\\n\\n.one {\\n    color: #e76346;\\n}\\n\\n.two {\\n    color: #4199d3;\\n}\\n\\n.three {\\n    color: #29bc2c;\\n}\\n\\n.four {\\n    color: #bb41d3;\\n}\\n\\n#result {\\n    margin-top: 5px;\\n    color: #e76346;\\n}\\n\\np {\\n    font-size: 16px;\\n}\\n\\n.btn {\\n    background-color: #e76346; /* Green */\\n    border: none;\\n    color: white;\\n    padding: 16px 32px;\\n    text-align: center;\\n    text-decoration: none;\\n    display: inline-block;\\n    font-size: 16px;\\n    margin: 4px 2px;\\n    cursor: pointer;\\n}\\n\\n.btn:hover {\\n    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24),\\n        0 14px 25px 0 rgba(0, 0, 0, 0.19);\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
+  \**************************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/styles.css":
+/*!************************!*\
+  !*** ./src/styles.css ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/styles.css?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+eval("\n\nvar stylesInDOM = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n\n  return updater;\n}\n\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+eval("\n\nvar memo = {};\n/* istanbul ignore next  */\n\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n\n    memo[target] = styleTarget;\n  }\n\n  return memo[target];\n}\n/* istanbul ignore next  */\n\n\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n\n  target.appendChild(style);\n}\n\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\n\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\n\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n\n  var needLayer = typeof obj.layer !== \"undefined\";\n\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n\n  css += obj.css;\n\n  if (needLayer) {\n    css += \"}\";\n  }\n\n  if (obj.media) {\n    css += \"}\";\n  }\n\n  if (obj.supports) {\n    css += \"}\";\n  }\n\n  var sourceMap = obj.sourceMap;\n\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  options.styleTagTransform(css, styleElement, options.options);\n}\n\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n\n  styleElement.parentNode.removeChild(styleElement);\n}\n/* istanbul ignore next  */\n\n\nfunction domAPI(options) {\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\n\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://typescript-minesweeper/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+/***/ }),
+
+/***/ "./src/index.ts":
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"state\": () => (/* binding */ state)\n/* harmony export */ });\n/* harmony import */ var _modules_createBoard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createBoard */ \"./src/modules/createBoard.ts\");\n/* harmony import */ var _modules_restart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/restart */ \"./src/modules/restart.ts\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n\nvar state = {\n    width: 10,\n    bombAmount: 20,\n    flags: 0,\n    squares: [],\n    isGameOver: false,\n    interval: null,\n    clicks: 0,\n    seconds: 0,\n    minutes: 0,\n    hours: 0,\n    grid: document.querySelector('.grid'),\n    flagsLeft: document.querySelector('#flags-left'),\n    result: document.querySelector('#result'),\n    timer: document.getElementById('display'),\n    restartButton: document.querySelector('.btn'),\n};\ndocument.addEventListener('DOMContentLoaded', function () {\n    var grid = state.grid, width = state.width, squares = state.squares, restartButton = state.restartButton;\n    restartButton.addEventListener('click', _modules_restart__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n    (0,_modules_createBoard__WEBPACK_IMPORTED_MODULE_0__[\"default\"])({ grid: grid, width: width, squares: squares });\n});\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/index.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/addFlag.ts":
+/*!********************************!*\
+  !*** ./src/modules/addFlag.ts ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n/* harmony import */ var _checkForWin__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./checkForWin */ \"./src/modules/checkForWin.ts\");\n\n\n//add Flag with right click\nvar addFlag = function (square) {\n    var isGameOver = ___WEBPACK_IMPORTED_MODULE_0__.state.isGameOver, flags = ___WEBPACK_IMPORTED_MODULE_0__.state.flags, bombAmount = ___WEBPACK_IMPORTED_MODULE_0__.state.bombAmount;\n    var remainingFlags = (bombAmount - flags - 1).toString();\n    if (isGameOver)\n        return;\n    if (!square.classList.contains('checked') && flags < bombAmount) {\n        if (!square.classList.contains('flag')) {\n            square.classList.add('flag');\n            square.innerHTML = ' 🚩';\n            ___WEBPACK_IMPORTED_MODULE_0__.state.flags++;\n            ___WEBPACK_IMPORTED_MODULE_0__.state.flagsLeft.innerHTML = remainingFlags;\n            (0,_checkForWin__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n        }\n        else {\n            square.classList.remove('flag');\n            square.innerHTML = '';\n            ___WEBPACK_IMPORTED_MODULE_0__.state.flags--;\n            ___WEBPACK_IMPORTED_MODULE_0__.state.flagsLeft.innerHTML = remainingFlags;\n        }\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addFlag);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/addFlag.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/addNumbers.ts":
+/*!***********************************!*\
+  !*** ./src/modules/addNumbers.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\nvar addNumbers = function (squares) {\n    var width = ___WEBPACK_IMPORTED_MODULE_0__.state.width;\n    for (var i = 0; i < squares.length; i++) {\n        var total = 0;\n        var isLeftEdge = i % width === 0;\n        var isRightEdge = i % width === width - 1;\n        if (squares[i].classList.contains('valid')) {\n            if (i > 0 &&\n                !isLeftEdge &&\n                squares[i - 1].classList.contains('bomb'))\n                total++;\n            if (i > 9 &&\n                !isRightEdge &&\n                squares[i + 1 - width].classList.contains('bomb'))\n                total++;\n            if (i > 10 && squares[i - width].classList.contains('bomb'))\n                total++;\n            if (i > 11 &&\n                !isLeftEdge &&\n                squares[i - 1 - width].classList.contains('bomb'))\n                total++;\n            if (i < 98 &&\n                !isRightEdge &&\n                squares[i + 1].classList.contains('bomb'))\n                total++;\n            if (i < 90 &&\n                !isLeftEdge &&\n                squares[i - 1 + width].classList.contains('bomb'))\n                total++;\n            if (i < 88 &&\n                !isRightEdge &&\n                squares[i + 1 + width].classList.contains('bomb'))\n                total++;\n            if (i < 89 && squares[i + width].classList.contains('bomb'))\n                total++;\n            squares[i].setAttribute('data', total.toString());\n        }\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addNumbers);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/addNumbers.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/checkForWin.ts":
+/*!************************************!*\
+  !*** ./src/modules/checkForWin.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n/* harmony import */ var _startStop__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./startStop */ \"./src/modules/startStop.ts\");\n\n\n//check for win\nvar checkForWin = function () {\n    var squares = ___WEBPACK_IMPORTED_MODULE_0__.state.squares, bombAmount = ___WEBPACK_IMPORTED_MODULE_0__.state.bombAmount, result = ___WEBPACK_IMPORTED_MODULE_0__.state.result;\n    var matches = 0;\n    for (var i = 0; i < squares.length; i++) {\n        if (squares[i].classList.contains('flag') &&\n            squares[i].classList.contains('bomb')) {\n            matches++;\n        }\n        if (matches === bombAmount) {\n            (0,_startStop__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('stopped');\n            result.innerHTML = 'YOU WIN!';\n            ___WEBPACK_IMPORTED_MODULE_0__.state.isGameOver = true;\n        }\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (checkForWin);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/checkForWin.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/checkSquare.ts":
+/*!************************************!*\
+  !*** ./src/modules/checkSquare.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _click__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./click */ \"./src/modules/click.ts\");\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\n\n//check neighboring squares once square is clicked\nvar checkSquare = function (_a) {\n    var square = _a.square, currentId = _a.currentId;\n    var width = ___WEBPACK_IMPORTED_MODULE_1__.state.width, squares = ___WEBPACK_IMPORTED_MODULE_1__.state.squares;\n    var isLeftEdge = currentId % width === 0;\n    var isRightEdge = currentId % width === width - 1;\n    setTimeout(function () {\n        if (currentId > 0 && !isLeftEdge) {\n            var newId = squares[currentId - 1].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId > 9 && !isRightEdge) {\n            var newId = squares[currentId + 1 - width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId > 10) {\n            var newId = squares[currentId - width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId > 11 && !isLeftEdge) {\n            var newId = squares[currentId - 1 - width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId < 98 && !isRightEdge) {\n            var newId = squares[currentId + 1].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId < 90 && !isLeftEdge) {\n            var newId = squares[currentId - 1 + width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId < 88 && !isRightEdge) {\n            var newId = squares[currentId + 1 + width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n        if (currentId < 89) {\n            var newId = squares[currentId + width].id;\n            var newSquare = document.getElementById(newId);\n            (0,_click__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(newSquare);\n        }\n    }, 10);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (checkSquare);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/checkSquare.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/click.ts":
+/*!******************************!*\
+  !*** ./src/modules/click.ts ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _checkSquare__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./checkSquare */ \"./src/modules/checkSquare.ts\");\n/* harmony import */ var _gameOver__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gameOver */ \"./src/modules/gameOver.ts\");\n/* harmony import */ var _startStop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./startStop */ \"./src/modules/startStop.ts\");\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\n\n\n\n//click on square actions\nvar click = function (square) {\n    var isGameOver = ___WEBPACK_IMPORTED_MODULE_3__.state.isGameOver;\n    ___WEBPACK_IMPORTED_MODULE_3__.state.clicks++;\n    (0,_startStop__WEBPACK_IMPORTED_MODULE_2__[\"default\"])('started');\n    var currentId = Number(square.id);\n    if (isGameOver)\n        return;\n    if (square.classList.contains('checked') ||\n        square.classList.contains('flag'))\n        return;\n    if (square.classList.contains('bomb')) {\n        (0,_gameOver__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(square);\n    }\n    else {\n        var total = Number(square.getAttribute('data'));\n        if (total != 0) {\n            square.classList.add('checked');\n            if (total == 1)\n                square.classList.add('one');\n            if (total == 2)\n                square.classList.add('two');\n            if (total == 3)\n                square.classList.add('three');\n            if (total == 4)\n                square.classList.add('four');\n            square.innerHTML = total.toString();\n            return;\n        }\n        (0,_checkSquare__WEBPACK_IMPORTED_MODULE_0__[\"default\"])({ square: square, currentId: currentId });\n    }\n    square.classList.add('checked');\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (click);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/click.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/createBoard.ts":
+/*!************************************!*\
+  !*** ./src/modules/createBoard.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getShuffledArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getShuffledArray */ \"./src/modules/getShuffledArray.ts\");\n/* harmony import */ var _addNumbers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addNumbers */ \"./src/modules/addNumbers.ts\");\n/* harmony import */ var _addFlag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addFlag */ \"./src/modules/addFlag.ts\");\n/* harmony import */ var _click__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./click */ \"./src/modules/click.ts\");\n\n\n\n\n//create Board\nvar createBoard = function (_a) {\n    var grid = _a.grid, width = _a.width, squares = _a.squares;\n    var shuffledArray = (0,_getShuffledArray__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(width);\n    var _loop_1 = function (i) {\n        var square = document.createElement('div');\n        square.setAttribute('id', i.toString());\n        square.classList.add(shuffledArray[i]);\n        grid.appendChild(square);\n        squares.push(square);\n        //normal click\n        square.addEventListener('click', function (event) {\n            (0,_click__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(square);\n        });\n        //ctrl and left click\n        square.oncontextmenu = function (event) {\n            event.preventDefault();\n            (0,_addFlag__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(square);\n        };\n    };\n    for (var i = 0; i < Math.pow(width, 2); i++) {\n        _loop_1(i);\n    }\n    //add numbers\n    (0,_addNumbers__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(squares);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createBoard);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/createBoard.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/gameOver.ts":
+/*!*********************************!*\
+  !*** ./src/modules/gameOver.ts ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n/* harmony import */ var _startStop__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./startStop */ \"./src/modules/startStop.ts\");\n\n\n//game over\nvar gameOver = function (square) {\n    var result = ___WEBPACK_IMPORTED_MODULE_0__.state.result, squares = ___WEBPACK_IMPORTED_MODULE_0__.state.squares;\n    (0,_startStop__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('stopped');\n    result.innerHTML = 'BOOM! Game Over!';\n    ___WEBPACK_IMPORTED_MODULE_0__.state.isGameOver = true;\n    //show ALL the bombs\n    squares.forEach(function (square) {\n        if (square.classList.contains('bomb')) {\n            square.innerHTML = '💣';\n            square.classList.remove('bomb');\n            square.classList.add('checked');\n        }\n    });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (gameOver);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/gameOver.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/getShuffledArray.ts":
+/*!*****************************************!*\
+  !*** ./src/modules/getShuffledArray.ts ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\n//get shuffled game array with random bombs\nvar getShuffledArray = function (width) {\n    var bombAmount = ___WEBPACK_IMPORTED_MODULE_0__.state.bombAmount;\n    var bombsArray = Array(bombAmount).fill('bomb');\n    var emptyArray = Array(Math.pow(width, 2) - bombAmount).fill('valid');\n    var gameArray = emptyArray.concat(bombsArray);\n    return gameArray.sort(function () { return Math.random() - 0.5; });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getShuffledArray);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/getShuffledArray.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/restart.ts":
+/*!********************************!*\
+  !*** ./src/modules/restart.ts ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n/* harmony import */ var _createBoard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createBoard */ \"./src/modules/createBoard.ts\");\n/* harmony import */ var _startStop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./startStop */ \"./src/modules/startStop.ts\");\n\n\n\nvar restart = function () {\n    ___WEBPACK_IMPORTED_MODULE_0__.state.width = 10;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.bombAmount = 20;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.flags = 0;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.squares = [];\n    ___WEBPACK_IMPORTED_MODULE_0__.state.isGameOver = false;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.clicks = 0;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.seconds = 0;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.minutes = 0;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.hours = 0;\n    ___WEBPACK_IMPORTED_MODULE_0__.state.grid.innerHTML = '';\n    ___WEBPACK_IMPORTED_MODULE_0__.state.flagsLeft.innerHTML = '';\n    ___WEBPACK_IMPORTED_MODULE_0__.state.result.innerHTML = '';\n    ___WEBPACK_IMPORTED_MODULE_0__.state.timer.innerHTML = '00:00:00';\n    var grid = ___WEBPACK_IMPORTED_MODULE_0__.state.grid, width = ___WEBPACK_IMPORTED_MODULE_0__.state.width, squares = ___WEBPACK_IMPORTED_MODULE_0__.state.squares;\n    (0,_startStop__WEBPACK_IMPORTED_MODULE_2__[\"default\"])('stopped');\n    (0,_createBoard__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({ grid: grid, width: width, squares: squares });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (restart);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/restart.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/startStop.ts":
+/*!**********************************!*\
+  !*** ./src/modules/startStop.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _stopWatch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./stopWatch */ \"./src/modules/stopWatch.ts\");\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\n\nvar startStop = function (status) {\n    var clicks = ___WEBPACK_IMPORTED_MODULE_1__.state.clicks;\n    if (status === 'started' && clicks === 1) {\n        //Start the stopwatch (by calling the setInterval() function)\n        ___WEBPACK_IMPORTED_MODULE_1__.state.interval = window.setInterval(_stopWatch__WEBPACK_IMPORTED_MODULE_0__[\"default\"], 1000);\n    }\n    if (status === 'stopped') {\n        window.clearInterval(___WEBPACK_IMPORTED_MODULE_1__.state.interval);\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (startStop);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/startStop.ts?");
+
+/***/ }),
+
+/***/ "./src/modules/stopWatch.ts":
+/*!**********************************!*\
+  !*** ./src/modules/stopWatch.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .. */ \"./src/index.ts\");\n\nvar stopWatch = function () {\n    var timer = ___WEBPACK_IMPORTED_MODULE_0__.state.timer;\n    //Define vars to hold \"display\" value\n    var displaySeconds = '0';\n    var displayMinutes = '0';\n    var displayHours = '0';\n    ___WEBPACK_IMPORTED_MODULE_0__.state.seconds++;\n    //Logic to determine when to increment next value\n    if (___WEBPACK_IMPORTED_MODULE_0__.state.seconds / 60 === 1) {\n        ___WEBPACK_IMPORTED_MODULE_0__.state.seconds = 0;\n        ___WEBPACK_IMPORTED_MODULE_0__.state.minutes++;\n        if (___WEBPACK_IMPORTED_MODULE_0__.state.minutes / 60 === 1) {\n            ___WEBPACK_IMPORTED_MODULE_0__.state.minutes = 0;\n            ___WEBPACK_IMPORTED_MODULE_0__.state.hours++;\n        }\n    }\n    //If seconds/minutes/hours are only one digit, add a leading 0 to the value\n    if (___WEBPACK_IMPORTED_MODULE_0__.state.seconds < 10) {\n        displaySeconds = '0' + ___WEBPACK_IMPORTED_MODULE_0__.state.seconds.toString();\n    }\n    else {\n        displaySeconds = ___WEBPACK_IMPORTED_MODULE_0__.state.seconds.toString();\n    }\n    if (___WEBPACK_IMPORTED_MODULE_0__.state.minutes < 10) {\n        displayMinutes = '0' + ___WEBPACK_IMPORTED_MODULE_0__.state.minutes.toString();\n    }\n    else {\n        displayMinutes = ___WEBPACK_IMPORTED_MODULE_0__.state.minutes.toString();\n    }\n    if (___WEBPACK_IMPORTED_MODULE_0__.state.hours < 10) {\n        displayHours = '0' + ___WEBPACK_IMPORTED_MODULE_0__.state.hours.toString();\n    }\n    else {\n        displayHours = ___WEBPACK_IMPORTED_MODULE_0__.state.hours.toString();\n    }\n    //Display updated time values to user\n    timer.innerHTML = \"\".concat(displayHours, \":\").concat(displayMinutes, \":\").concat(displaySeconds);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (stopWatch);\n\n\n//# sourceURL=webpack://typescript-minesweeper/./src/modules/stopWatch.ts?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
+/******/ 	
+/******/ })()
+;
